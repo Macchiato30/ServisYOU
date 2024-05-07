@@ -1,0 +1,45 @@
+body {
+    animation: transitionIn 0.75s;
+    background-color: rgb(238, 236, 233);
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: slateblue;
+}
+
+.pb-2 {
+    font-size: 50px;
+    font-family: fantasy;
+    color: slateblue;
+}
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    color: #6a5acd;
+}
+
+.btn-primary {
+    background-color: slateblue;
+}
+
+.btn-success {
+    background-color: slateblue;
+}
+.unstyled-button {
+    border: none;
+    padding: 0;
+    background: none;
+}

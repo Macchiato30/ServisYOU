@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/css/master.css" />
+    <link rel="stylesheet" href="/css/css/home.css" />
+
+    <script type="module" src="./js/system/home.js"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary fixed-top container-fluid bg">
+      <div class="col-10 container-fluid">
+        <form class="col d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="unstyled-button p-1" id="srch" type="submit">
+            <img src="assets/imgs/search.png" />
+          </button>
+        </form>
+        <a class="col-1 ps-2" href="#" id="btn_signout"
+          ><button class="unstyled-button">
+            <img src="assets/imgs/signout.png" /></button
+        ></a>
+      </div>
+      <div class="col-10 container-fluid pt-1">
+        <a href="home.html"
+          ><button class="unstyled-button">
+            <img src="assets/imgs/inhome.png" /></button
+        ></a>
+        <a href="profile.html"
+          ><button class="unstyled-button">
+            <img src="assets/imgs/user.png" /></button
+        ></a>
+        <a href="#"
+          ><button class="unstyled-button">
+            <img src="assets/imgs/bookmark.png" /></button
+        ></a>
+      </div>
+    </nav>
+    <br /><br /><br />
+    <br />
+    <br />
+
+    <!-- Notifications -->
+    <div class="alert alert-danger d-none" role="alert"></div>
+
+    <div>
+      <div class="col-11 container-fluid">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="assets/imgs/plmb.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Plumber</h5>
+                <p>P800 per Project</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                  blanditiis dignissimos mollitia nostrum
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="assets/imgs/soldering.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Technician</h5>
+                <p>P350/hr</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                  blanditiis dignissimos mollitia nostrum
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="assets/imgs/panday.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Panday Mason</h5>
+                <p>P1000 / May Vary</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                  blanditiis dignissimos mollitia nostrum
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <script src="./js/capacitor-welcome.js" type="module"></script>
+  </body>
+</html>

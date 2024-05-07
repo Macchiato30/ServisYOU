@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/css/master.css" />
+    <link rel="stylesheet" href="/css/css/home.css" />
+
+    <script type="module" src="./js/system/profile.js"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary fixed-top container-fluid bg">
+      <div class="col-10 container-fluid">
+        <form class="col d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="unstyled-button p-1" id="srch" type="submit">
+            <img src="assets/imgs/search.png" />
+          </button>
+        </form>
+        <a class="col-1 ps-2" href="#" id="btn_signout"
+          ><button class="unstyled-button">
+            <img src="assets/imgs/signout.png" /></button
+        ></a>
+      </div>
+      <div class="col-10 container-fluid pt-1">
+        <a href="home.html"
+          ><button class="unstyled-button">
+            <img src="assets/imgs/home.png" /></button
+        ></a>
+        <a href="profile.html"
+          ><button class="unstyled-button">
+            <img src="assets/imgs/inuser.png" /></button
+        ></a>
+        <a href="#"
+          ><button class="unstyled-button">
+            <img src="assets/imgs/bookmark.png" /></button
+        ></a>
+      </div>
+    </nav>
+    <br /><br /><br />
+    <br />
+    <br />
+
+    <!-- Notifications -->
+    <div class="alert alert-danger d-none" role="alert"></div>
+
+    <div class="col-11 container-fluid">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="assets/imgs/plmb.jpg"
+              class="pt-1 m-4 img-fluid rounded-circle"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Your Name</h5>
+              <p>P800 per Project</p>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus dignissimos voluptatibus nulla labore libero ratione
+                ab reprehenderit odit nemo beatae ipsa illum facilis ea itaque
+                et sequi, adipisci vitae nisi!
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 3 mins ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-11 container-fluid">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <p><b>CONTACT ME!</b></p>
+              <ul>
+                <li>facebook.com/mb3</li>
+                <li>+6394832947</li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-11 container-fluid">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <p><b>RATING</b></p>
+              <ul>
+                <li>4.5 / 5</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <script src="./js/capacitor-welcome.js" type="module"></script>
+  </body>
+</html>

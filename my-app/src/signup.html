@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/css/master.css" />
+
+    <script src="./js/auth/signup.js" type="module"></script>
+  </head>
+  <body class="container-fluid">
+    <div><br /><br /><br /></div>
+    <div class="col-8 position-absolute top-50 start-50 translate-middle">
+      <br /><br /><br />
+      <h1 class="pb-2 text-center"><b>JOIN NOW!</b></h1>
+
+      <!-- Alert Notification-->
+      <div class="alert alert-success d-none" role="alert"></div>
+      <div class="alert alert-danger d-none" role="alert"></div>
+
+      <form id="form_register">
+        <div class="mb-3">
+          <label for="firstName" class="visually-hidden">First Name</label>
+          <input
+            type="text"
+            class="rounded-pill form-control"
+            name="first_name"
+            id="first_name"
+            placeholder="First Name"
+            required
+          />
+          <br />
+          <label for="lastName" class="visually-hidden">Last Name</label>
+          <input
+            type="text"
+            class="rounded-pill form-control"
+            name="last_name"
+            id="last_name"
+            placeholder="Last Name"
+            required
+          />
+          <br />
+
+          <label for="inputMobileNumber" class="visually-hidden"
+            >Mobile Number</label
+          >
+          <input
+            type="number"
+            class="rounded-pill form-control"
+            name="phone_number"
+            id="phone_number"
+            placeholder="Mobile Number"
+            required
+          />
+          <br />
+
+          <label for="inputSocMed" class="visually-hidden">Facebook Link</label>
+          <input
+            type="facebook"
+            class="rounded-pill form-control"
+            name="fb_page"
+            id="fb_page"
+            placeholder="Facebook Link"
+            required
+          />
+          <br />
+
+          <label for="exampleInputEmail1" class="form-label visually-hidden"
+            ><b>Email</b></label
+          >
+          <input
+            type="email"
+            class="rounded-pill form-control"
+            name="email"
+            id="email"
+            aria-describedby="emailHelp"
+            placeholder="Email"
+            required
+          />
+          <div id="email" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label visually-hidden"
+            >Password</label
+          >
+          <input
+            type="password"
+            class="rounded-pill form-control"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <br />
+          <label for="exampleInputPassword1" class="form-label visually-hidden"
+            >Password</label
+          >
+          <input
+            type="password"
+            class="rounded-pill form-control"
+            name="password_confirmation"
+            id="password_confirmation"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <p2>Already have an account?</p2>
+          <a href="signin.html"><u>Sign in here!</u></a>
+        </div>
+        <div>
+          <a class="d-grid gap-2 col-6 mx-auto p-1" href="home.html">
+            <button
+              type="submit"
+              class="rounded-pill btn btn-primary w-100 mb-3 d-flex justify-content-center align-items-center"
+            >
+              <b>Sign up</b>
+            </button></a
+          >
+        </div>
+        <br />
+      </form>
+    </div>
+    <script src="./js/capacitor-welcome.js" type="module"></script>
+  </body>
+</html>

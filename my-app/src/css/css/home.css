@@ -1,0 +1,14 @@
+.navbar-brand {
+    color: #6a5acd;
+    font-weight: 400;
+    font-family: fantasy;
+}
+.rounded-circle{
+    width:200px;
+    height:200px;
+}
+.unstyled-button {
+    border: none;
+    padding: 0;
+    background: none;
+}
